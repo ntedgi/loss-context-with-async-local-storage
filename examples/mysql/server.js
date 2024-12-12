@@ -25,7 +25,7 @@ const pool = mysql.createPool({
   connectionLimit: 10,
   host: "mysql",
   user: "root",
-  password: "Catch22",
+  password: "blabla",
   database: "main"
 });
 
