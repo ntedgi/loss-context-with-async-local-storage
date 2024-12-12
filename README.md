@@ -28,11 +28,12 @@ Run Examples: Navigate to the desired example folder and execute the script to o
 
 ## Test Your Code: Use the repository as a reference to test and debug your own implementation of AsyncLocalStorage.
 
-Common Issues Highlighted
+## Common Issues Highlighted
 Improper usage of asynchronous APIs that break the async chain.
 Third-party npm packages that inadvertently clear or overwrite context.
 Misconfigured middleware or utility functions in the application stack.
-Contributing
+
+## Contributing
 Contributions are welcome! If you have additional examples, insights, or fixes, feel free to open an issue or submit a pull request.
 
 
