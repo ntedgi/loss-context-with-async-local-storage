@@ -17,6 +17,7 @@ When working with asynchronous code in Node.js, maintaining proper context (e.g.
 ## Examples:
 
 `mysql` Package (https://www.npmjs.com/package/mysql)
+real world example https://github.com/ntedgi/loss-context-with-async-local-storage/tree/main/examples/mysql
 
 The mysql package is a commonly used library for interacting with MySQL databases. However, it is known to break asynchronous context propagation in the following scenarios:
 
