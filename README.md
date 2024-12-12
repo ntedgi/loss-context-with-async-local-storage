@@ -1,4 +1,4 @@
-## Loss of Context with AsyncLocalStorage
+# Loss of Context with AsyncLocalStorage
 A practical guide to understanding and resolving issues with AsyncLocalStorage and async_hooks losing context in Node.js applications.
 
 ## Overview
@@ -16,7 +16,8 @@ When working with asynchronous code in Node.js, maintaining proper context (e.g.
 
 ## Examples:
 
-`mysql` Package (https://www.npmjs.com/package/mysql)
+## `mysql` Package (https://www.npmjs.com/package/mysql)
+
 real world example https://github.com/ntedgi/loss-context-with-async-local-storage/tree/main/examples/mysql
 
 The mysql package is a commonly used library for interacting with MySQL databases. However, it is known to break asynchronous context propagation in the following scenarios:
